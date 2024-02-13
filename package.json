@@ -1,0 +1,20 @@
+{
+  "name": "ppp",
+  "version": "1.0.0",
+  "description": "Building a personal police page for easier browsing of swedish police incidents by using the API provided by the swedish police https://polisen.se/om-polisen/om-webbplatsen/oppna-data/api-over-polisens-handelser/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd express.ts-server && npm start\" \"cd personal-police-page && npm run dev\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aljo95/personal-police-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
